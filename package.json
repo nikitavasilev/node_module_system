@@ -1,0 +1,19 @@
+{
+  "name": "node_module_system",
+  "version": "1.0.0",
+  "description": "Node.Js basics - Node Module System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitavasilev/node_module_system.git"
+  },
+  "author": "Nikita Vasilev",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/nikitavasilev/node_module_system/issues"
+  },
+  "homepage": "https://github.com/nikitavasilev/node_module_system#readme"
+}
