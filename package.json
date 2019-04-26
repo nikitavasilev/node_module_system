@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/nikitavasilev/node_module_system/issues"
   },
-  "homepage": "https://github.com/nikitavasilev/node_module_system#readme"
+  "homepage": "https://github.com/nikitavasilev/node_module_system#readme",
+  "devDependencies": {
+    "jshint": "^2.10.2"
+  },
+  "dependencies": {
+    "cherrys-lib": "^1.1.0"
+  }
 }
