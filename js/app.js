@@ -1,6 +1,17 @@
-const logger = require('./logger');
+const http = require('http');
 
-logger.log('message');
+const server = http.createServer((req, res) => {
+  if (req.url === '/') {
+    res.write('Hello World!');
+    res.end();
+  }
 
-console.log(__filename);
-console.log(__dirname);
+  if (req.url === '/api/courses') {
+    res.write(JSON.stringify([1, 2, 3]));
+    res.end();
+  }
+});
+
+server.listen(3000);
+
+console.log('Listenning on port 3000...');
